@@ -1,6 +1,9 @@
 package com.company.interfaces.functionalInterfaces;
 
 
+import java.util.stream.Collectors;
+
+
 public class Example {
 
   public static void main (String[] args) {
@@ -18,5 +21,6 @@ public class Example {
     Playable pExpression = () -> System.out.println("Lambda Expression");
 
     pExpression.play();
+
   }
 }
